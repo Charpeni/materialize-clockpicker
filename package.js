@@ -9,7 +9,7 @@ Package.describe({
 Package.onUse(function (api) {
   api.versionsFrom('1.2.0.2');
   api.use('jquery', 'client');
-  api.use('materialize:materialize', 'client');
+  api.use('materialize:materialize@0.97.0', 'client');
   api.addFiles('lib/materialize.clockpicker.js', 'client');
   api.addFiles('lib/materialize.clockpicker.css', 'client');
 });
